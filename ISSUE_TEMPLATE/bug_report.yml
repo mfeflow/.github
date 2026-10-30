@@ -1,0 +1,30 @@
+name: Bug report
+description: Something does not work as documented.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: A minimal repo or the exact commands.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: mfeflow version
+      placeholder: "mfeflow --version"
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: OS, Node and package manager versions
+      placeholder: "macOS 26, Node 22.12, pnpm 12.17"
