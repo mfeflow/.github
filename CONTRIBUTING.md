@@ -10,7 +10,7 @@ git clone https://github.com/mfeflow/mfeflow.git
 cd mfeflow
 corepack enable
 pnpm install
-pnpm ci
+pnpm run ci
 ```
 
 ## Pull requests
@@ -18,7 +18,7 @@ pnpm ci
 - One change per PR. The PR title is the commit on `main` (squash merge), so
   it must follow [Conventional Commits](https://www.conventionalcommits.org/):
   `feat: …`, `fix: …`, `docs: …`, `chore: …`.
-- `pnpm ci` passes locally: format, lint, typecheck, test, build.
+- `pnpm run ci` passes locally: format, lint, typecheck, test, build.
 - New code comes with tests next to it (`*.test.ts`); coverage stays ≥ 80%.
 - A change to a published package needs a changeset: `pnpm changeset`.
 - `starter` and the generated parts of `examples` are produced by the CLI.
