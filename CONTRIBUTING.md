@@ -24,6 +24,10 @@ pnpm run ci
 - `starter` and the generated parts of `examples` are produced by the CLI.
   Change the templates in `mfeflow/mfeflow`, not the generated files.
 
+## Getting more access
+
+Regular contributors can become triagers, committers and maintainers. See [CONTRIBUTOR_LADDER.md](CONTRIBUTOR_LADDER.md).
+
 ## Reporting security issues
 
 Do not open a public issue. See [SECURITY.md](SECURITY.md).
